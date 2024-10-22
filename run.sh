@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=2 python main.py --DS FRANKENSTEIN --log_file 'results.txt'  --epochs 100 --use_bn 0 --batch_size 1024 --data_split 4 --source_index 0 --target_index 1 --use_kergnn 1
